@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
 </head>
 
+
 <body>
     <header class="header">
         <a href="logo" class="logo"><span>Selina Zhang</span></a>
         <ul class="nav-links">
-            <li><a href="#about">About</a>
+            <li>
+                <a href="#story">About</a>
             </li>
             <li><a href="#experience">Experience</a>
             </li>
             <li><a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#certificates">Certificates</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -39,7 +44,9 @@
                 <p>Intending to become a front-end developer or a UI/UX designer</p>
             </div>
             <div class="btn-group">
-                <div class="btn">Download CV</div>
+                <a href="resume 2026.pdf">
+                    <div class="btn">Download CV</div>
+                </a>
                 <a href="#contact" class="btn">Contact</a>
             </div>
 
@@ -55,42 +62,68 @@
         </div>
     </section>
 
+    <section class="story" id="story">
+        <h2 class="section-title">My story</h2>
+        <div class="story-section">
+            
+            <p>I started my coding journey in Grade 10 when I participated in my first hackathon, Technovation Girls. 
+                Along with three other teammates, I developed a mobile app for people with multiple sclerosis (MS). 
+                I was amazed by the impact software application can
+                make to my community and the social issues I care about. Thus, I started learning
+                coding and software development more seriously. I participated in more hackathons,
+                summer programs, research programs, internships to learn more about web and game development. 
+                I expanded my knowledge to multiple coding languages and frameworks, such as JavaScript,
+                Python, HTML, CSS, and REACT. Now, I'm a freshman at the University of
+                Washington, studying Engineering (wants to major in HCDE). I aim to become a front-end or
+                UX developer. I'm always looking for internship, networking, hackathon, and conferences
+                opportunities. So please don't hesitate to reach out!
+            </p>
+            <img src="profile_img2.jpeg" alt="profile photo">
+        </div>
+    </section>
+
     <section id="experience" class ="experience">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">Experience & Skills</h2>
         <div class="experience-info">
             <div class="grid">
                 <div class="grid-card">
-                    <span>Front-end development</span>
-                    <h3>3 years</h3>
-                    <p>I have coded many project in high school and for hackathons, summer programs and etc. 
-                        My projects range from mobile applications, prototypes,
-                        web applications, and games.
+                    <span>Mehta Plus summer research program</span>
+                    <h3>1 month</h3>
+                    <p>Conducted two research projects with university professors around humanity subjects 
+                        (Spanish literature & Norman Sicily geoscience). Applied machine learning skills into 
+                        data processing. Used tools like LLM, Pearson Correlation, K-means clustering etc. 
+                        Produced 12 page research paper and featured on the Norman Sicily project website.
                     </p>
                 </div>
                 <div class="grid-card">
-                    <span>Volunteering</span>
-                    <h3>5 years</h3>
-                    <p>For the past few years, I've volunteered at many school and community events 
-                        such as school spirit weeks, commencement, senior center activities etc.
+                    <span>Technovation Girls</span>
+                    <h3>2 years</h3>
+                    <p>My team of 4 coded a mobile app to help faciliate the daily lives of Multiple Sclerosis patients
+                        using React Native and JavaScript. From prototyping, market research, to getting user feedback
+                        and writing business plans, we did it all. Our App has 4 main features: a map, a reminder page,
+                        a info dictionary, and a notes-taking page. See details in the projects section.
                     </p>
                 </div>
                 <div class="grid-card">
-                    <span>Leadership</span>
-                    <h3>7 years</h3>
-                    <p>I have led many volunteer opportunities and community/school events. I've been in the student council
-                        since grade 7 to organize other students. I am also the founder of a club in high school and
-                        organized many volunteering events.</p>
+                    <span>Thinking Beyound computer programmer intern</span>
+                    <h3>18 months</h3>
+                    <p>I built code models to increase organization’s work flow and efficiency. I was also 
+                        part of a Discord learning chatbot development project, where we collaborated 
+                        with Google Deep Mind.
+                        Utilized tools such as Google Colab, Overleaf, LaTeX, and MongoDB. 
+                    </p>
                 </div>
                 <div class="grid-card">
-                    <span>Collaboration</span>
-                    <h3>7 years</h3>
-                    <p>I have worked in countless groups to complete high quality group project for 
-                        more than 7 years, whether this is for hackathons, school projects, events planning
-                        and many more.
+                    <span>Girls Who Code & Kode with Klossy</span>
+                    <h3>summer 2025</h3>
+                    <p>I learned about game development and web-development. Coded multiple games using
+                        JavaScript and Replit, as well as a website raising awareness for the climate
+                        change issue using HTML, CSS, and JavaScript. Also got the change to connect with 
+                        workers at Apple.
                     </p>
                 </div>
             </div>
-            <img src="profile_img2.jpeg" alt="profile photo">
+            
         </div>
     </section>
     <section id="projects" class="projects">
@@ -117,13 +150,16 @@
             <div class="project-card">
                 <span>Project 2</span>
                 <img src="project2.png" alt="project 2">
-                <h3>Climate Headquarter</h3>
-                <p>This is a website I built along with my group in the
-                    Kode with Klossy summer program. We can to use this to help
-                    raise awareness for the climate change issue.
+                <h3>OOTD Generator</h3>
+                <p>This is a website that I built t help me generate my outfit everyday based
+                    on the current weather. I took photos of all my clothing images and stored them
+                    in Supabase db.
                 </p>
                 <div class="btn-group">
-                    <a href="https://github.com/SelinaZ07/Climate-change">
+                    <a href="https://ootd-generator.vercel.app/">
+                        <div class="btn">View Project</div>
+                    </a>
+                    <a href="https://github.com/SelinaZ07/OOTD-generator">
                         <div class="btn">Github Repo</div>
                     </a>
                 </div>
@@ -148,28 +184,52 @@
             </div>
         </div>
     </section>
+
+    <section class="certificates" id="certificates">
+        <h2 class="section-title">Certificates I have earned</h2>
+        <div class="imageBoard">
+            <img src="./assets/CAGIS.png" alt="certificate">
+            <img src="./assets/GWC1.png" alt="certificate">
+            <img src="./assets/javascript_certificate.png" alt="certificate">
+            <img src="./assets/KWK.png" alt="certificate">
+            <img src="./assets/MehtaPlus.png" alt="certificate">
+            <img src="./assets/Technovation.png" alt="certificate">
+            <img src="./assets/YME.png" alt="certificate">
+            <img src="./assets/GWC2.png" alt="certificate">
+        </div>
+    </section>
     
     <section class="contact" id="contact">  
         <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
+            <h2 class="section-title">Connect with me!</h2>
             <h3>Please don't hesitate to reach out and connect with me!</h3>
             <div class="input">
-                <input type="text" placeholder="08selinazhang@gmail.com" required>
-                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:08selinzhang@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/selina-zhang-56271232b/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
             </div>
-            <div class="btn">Submit</div>
         </div>
     </section>
     <footer>
         <ul>
             <li>
-                <a href="#about">About</a>
+                <a href="#story">About</a>
+            </li>
+            <li><a href="#experience">Experience</a>
+            </li>
+            <li><a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>

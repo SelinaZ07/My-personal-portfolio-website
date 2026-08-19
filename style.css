@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
@@ -25,6 +25,7 @@ header{
     border-radius: 3rem;
     z-index:1000;
 }
+
 .logo{
     color: white;
     font-size: 1.3rem;
@@ -35,10 +36,12 @@ header{
 .logo:hover{
     transform: scale(1.1);
 }
+
 .nav-links{
     display: flex;
     gap: 2rem;
 }
+
 /*this is specifying every element in li*/
 li a{
     position: relative;
@@ -60,6 +63,7 @@ li a::before{
 li a:hover::before{
     width: 100%;
 }
+
 .visit-btn{
     padding: 0.8rem 1.5rem;
     border-radius: 3rem;
@@ -77,16 +81,19 @@ li a:hover::before{
     background:linear-gradient(to right, rgb(152, 88, 217), lightblue);
     transform: scale(1.03);
 }
+
 #menu-icon{
     font-size: 2rem;
     display: none;
 }
+
 section{
     min-height:100vh;
     padding: 8rem 12%;
     width: 100%;
     position: relative;
 }
+
 .about{
     display: flex;
     align-items: center;
@@ -103,6 +110,7 @@ section{
     width: 30vw;/*30% of the screen view*/
     border-radius: 50%;
 }
+
 .info-box{
     display: flex;
     flex-direction: column;
@@ -126,6 +134,7 @@ section{
     color: transparent;
     font-size: 2rem;
 }
+
 .btn-group{
     display: flex;
     gap: 1rem;
@@ -144,6 +153,7 @@ section{
     background-color: black;
     color: white;
 }
+
 .socials{
     display: flex;
     gap: 2rem;
@@ -158,12 +168,14 @@ section{
     transform: scale(1.1);
     color: black;
 }
+
 .section-title{
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 3rem;
 }
+
 .experience-info{
     display: flex;
     align-items: center;
@@ -174,6 +186,7 @@ section{
     width: 24vw;
     border-radius: 3rem;
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);/*we have 2 grids, each taking one fraction of space*/
@@ -205,7 +218,13 @@ section{
     background:linear-gradient(to right, rgb(152, 88, 217), lightblue);
     background-clip: text;
     color: transparent;
+    margin: 10px;
 }
+
+.grid-card h3{
+    margin-bottom: 5px;
+}
+
 /*customizing the web browser structure*/
 ::-webkit-scrollbar{
     width: 20px;
@@ -260,6 +279,26 @@ section{
     font-size: 2rem;
     font-weight: 500;
 }
+
+.story-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 2rem;
+}
+
+.story p{
+    font-size: 1.5rem;
+    margin-top: 5px;
+    width: 110%;
+}
+
+.story img{
+    width: 30vw;
+    border-radius: 3rem;
+    margin-left: 7vw;
+    align-self: left;
+}
+
 .input-box{
     display: flex;
     flex-direction: column;
@@ -268,27 +307,29 @@ section{
     gap: 2rem;
     margin-top: 5rem;
 }
-.input-box input{
-    border-radius: 3rem;
-    border: 2px solid black;
-    padding: 2rem 8rem;
-    font-size: 3rem;
-    width: 100;
-}
 
-.input-box input::placeholder{
-    font-size: 3rem;
-}
 .input{
     position: relative;
 }
+
 .input i{
-    position: absolute;
-    font-size: 4rem;
-    top: 50%;
-    left: 10px;
-    transform: translate(50%,-50%);
+    font-size: 3rem;
+    margin: 2rem;
+    color: rgb(151, 188, 255)
 }
+
+
+.certificates imageBoard{
+    display: inline;
+}
+
+.certificates img{
+    width:18vw;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 footer{
     bottom: 0;
     left: 0;
@@ -309,6 +350,7 @@ footer ul li a{
     color: black;
     font-weight: 600;
 }
+
 /*these stylings makes the website adaptable to different screen sizes*/
 @media(max-width: 1280px){
     header{
