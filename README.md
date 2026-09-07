@@ -1,11 +1,12 @@
 # My-personal-portfolio-website
 This is my personal website showcasing some of my recent work and introduces a little bit about me. 
 
-## website sections:
-1. About my background and my socials
+## Website sections:
+1. About my background and my story
 2. My past experiences and skills
 3. My recent coding projects
-4. My contact information
+4. Certiticates I've earned
+5. My contact information and socials
 
 ## Code breakdown:
 I primarily used CSS and HTML, as well as a little bit of Javascript to enable button clicking and navigations. All the animations and designs are done by CSS.
